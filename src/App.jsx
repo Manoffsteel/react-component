@@ -7,6 +7,7 @@ export const App =()=>{
     <React.Fragment>   
 
     <img src="IMAGE 2024-06-12 13:58:22.jpg" alt="my photo" width ="30%" />
+    
     <h1>This is a heading 1 </h1>
     <p>this is a para </p>
 
@@ -29,16 +30,25 @@ export const App =()=>{
   // jo kaam ko repeat karna tha usko compnent bana kr
   // baar baar call krdiye bs
     const Netflixseries=()=>{
+    const name="ankit kumar";
+
       return (
         <div>
     <img src="IMAGE 2024-06-12 13:58:22.jpg" alt="my photo" width ="30%" />
     <h1>This is a heading 1 </h1>
-    <p>this is a para </p>
+    
+    <p>My name is {name} and age {20+5}</p>
+    
     
     </div>
 
       );
     }
+
+    /*
+    adding java script inside html 
+    yeh hai power component ka html bhi javascript bhi
+     */
 
 
 /*
