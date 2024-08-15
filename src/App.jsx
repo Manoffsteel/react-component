@@ -73,9 +73,9 @@ export const App =()=>{
     <img src="IMAGE 2024-06-12 13:58:22.jpg" alt="my photo" width ="30%" />
     <h1>This is a heading 1 </h1>
     <p>this is a para </p>
-    */
     
     </div>
 
       );
     }
+    */
